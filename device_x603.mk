@@ -44,3 +44,5 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Vendor product configurations
 $(call inherit-product-if-exists, vendor/infinix/x603/x603-vendor.mk)
+#$(call inherit-product-if-exists, vendor/samsung/j7maxlte/j7maxlte-vendor.mk)
+
